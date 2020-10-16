@@ -1,0 +1,759 @@
+<html>
+<head>
+	<title>Almari COUTURE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="slide.js"></script>
+</head>
+<body>
+	<header class="site-headers">
+		<nav>
+			<div class="logo">
+				<h1>ALMARI<span>&nbspCOUTURE</span></h1>
+			</div>
+			<div class="topnav" >
+  <a href="index.html">Home</a>
+  <a href="product.html">Products</a>
+  <a href="customer.html">Updates</a>
+  <a href="ship.html">shipping</a>
+  <a href="bil.html">Billing</a>
+  <a href="About us.html">About us</a>
+  <a href="contact.html">Contact us</a>
+
+
+</div>
+</nav>
+</header>
+
+ 
+<STYLE >
+
+#page-wrap 
+{
+width: 297mm; 
+height:210mm; 
+ margin-top: 1cm;
+ margin-bottom: 1.016cm;
+ margin-left: 2.54cm;
+ margin-right: 1.016cm;
+}
+td {
+	font-size:21px;
+}
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
+	 #printPageButton {
+    display: none;
+  }
+  
+  html
+    {
+        transform: scale(0.79);transform-origin: 0 0;
+    }
+}
+
+body{
+	
+	
+    font-family: sans-serif;
+
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 1px;
+  font-size: 19px;
+ 
+}
+
+select {
+        width: 150px;
+        margin: 10px;
+		height : 200px;
+    }
+
+#myForm select { 
+width:200px; }
+
+#myForm select:focus {
+width:auto; }
+
+
+ </STYLE>
+ 
+ <head>
+ 
+ 
+ <script language="javascript" type="text/javascript">
+function multiply(){
+    a=Number(document.calculator.Quantity.value);
+    b=Number(document.calculator.RATE.value);
+    c=a*b;
+	z=Math.round(c);
+	
+    document.calculator.TOTAL1.value=z;
+		
+}
+
+
+</script>
+<script language="javascript" type="text/javascript">	
+function multiply01(){
+    a=Number(document.calculator01.Quantity.value);
+    b=Number(document.calculator01.RATE.value);
+    c=a*b;
+    z=Math.round(c);
+	document.calculator01.TOTAL2.value=z;	
+	
+	
+}
+
+
+</script>
+
+
+<script language="javascript" type="text/javascript">	
+function multiply02(){
+    a=Number(document.calculator02.Quantity.value);
+    b=Number(document.calculator02.RATE.value);
+    c=a*b;
+	z=Math.round(c);
+    document.calculator02.TOTAL3.value=z;	
+}
+
+
+</script>
+ 
+ <script language="javascript" type="text/javascript">	
+function multiply03(){
+    a=Number(document.calculator03.Quantity.value);
+    b=Number(document.calculator03.RATE.value);
+    c=a*b;
+	z=Math.round(c);
+    document.calculator03.TOTAL4.value=z;	
+}
+
+
+</script>
+ 
+ <script language="javascript" type="text/javascript">	
+function multiply04(){
+    a=Number(document.calculator04.Quantity.value);
+    b=Number(document.calculator04.RATE.value);
+    c=a*b;
+	z=Math.round(c);
+    document.calculator04.TOTAL5.value=z;	
+}
+
+
+</script>
+
+
+
+<script language="javascript" type="text/javascript">	
+function multiply05(){
+    a=Number(document.calculator05.Quantity.value);
+    b=Number(document.calculator05.RATE.value);
+    c=a*b;
+	z=Math.round(c);
+    document.calculator05.TOTAL6.value=z;	
+}
+
+
+</script>
+
+
+
+
+
+
+
+<script language="javascript" type="text/javascript">	
+
+function convertNumberToWords(num) {
+var a = ['','One ','Two ','Three ','Four ', 'Five ','Six ','Seven ','Eight ','Nine ','Ten ','Eleven ','Twelve ','Thirteen ','Fourteen ','Fifteen ','Sixteen ','Seventeen ','Eighteen ','Nineteen '];
+var b = ['', '', 'Twenty','Thirty','Forty','Fifty', 'Sixty','Seventy','Eighty','Ninety'];
+
+    num=Number(document.calculator19.TOTAL00.value);
+    if ((num = num.toString()).length > 9) return 'overflow';
+    n = ('000000000' + num).substr(-9).match(/^(\d{2})(\d{2})(\d{2})(\d{1})(\d{2})$/);
+    if (!n) return; var str = '';
+    str += (n[1] != 0) ? (a[Number(n[1])] || b[n[1][0]] + ' ' + a[n[1][1]]) + 'Crore ' : '';
+    str += (n[2] != 0) ? (a[Number(n[2])] || b[n[2][0]] + ' ' + a[n[2][1]]) + 'Lakh ' : '';
+    str += (n[3] != 0) ? (a[Number(n[3])] || b[n[3][0]] + ' ' + a[n[3][1]]) + 'Thousand ' : '';
+    str += (n[4] != 0) ? (a[Number(n[4])] || b[n[4][0]] + ' ' + a[n[4][1]]) + 'Hundred ' : '';
+    str += (n[5] != 0) ? ((str != '') ? 'and ' : '') + (a[Number(n[5])] || b[n[5][0]] + ' ' + a[n[5][1]]) + 'Only ' : '';
+    document.calculator20.t.value=str;
+   return str;
+
+ 
+}   
+
+   
+
+</script>
+
+ </head>
+<BODY>
+</font>
+ 
+ <div id="page-wrap" >
+ <table width="99%" style="border:1px solid;" cellspacing="0" cellpadding="0">
+
+ 	<tr>
+	<td width="100%">
+	<table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+	<td width="50%" style="border-top:0px solid; height:25px; border-right:1px solid; text-align:center;"><font color="#004d00"><b>Bill Information</b></font></td>
+	<td width="50%" style="border-top:0px solid;  height:25px; text-align:center;"><font color="#004d00"><b>Details of Receiver (Billed to)</b></font></td>
+	</tr>
+	</table>
+	</td>
+	</tr>
+	
+	<tr>
+	<td width="100%">
+	<table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+	<td width="50%" style="border-top:1px solid; height:100px; border-right:1px solid; padding-left:10px;" valign="top">
+	<!-- Invoice Details -->
+    <table >
+	<tr>
+	<td style="height:10px;"><font color="#004d00"><b>Customer Name :</b></font></td>
+	<td> <input type="text" name="firstname" >
+	
+    
+	</td>
+	</tr>
+	<tr>
+	<td style="height:10px;"><font color="#004d00"><b>Address :</b></font></td>
+	<td> <textarea rows="4" cols="30"></textarea>
+	
+	</td>
+	</tr>
+	
+	
+	</tr>
+	
+	
+	
+	</tr>
+	
+	
+	<tr>
+	<td style="height:20px;"><font color="#004d00"><b>Mobile Number :</b></font></td>
+	<td><input type="Number" name="mobile" >
+	
+	</td>
+	</tr>
+	<td style="height:20px;"><font color="#004d00"><b>GSTIN Number</b></font></td>
+	<td><input type="Number" name="GSTIN" >
+	</td>
+	</tr>
+	</table>
+	<!-- Invoice Details -->
+	</td>
+	<td width="50%" style="border-top:1px solid; padding-left:10px;" valign="top">
+	<!-- Invoice Other Details -->
+	<table>
+	<tr>
+	<td style="height:25px;"><font color="#004d00"><b>GSTIN Number :</b></font></td>
+	<td><input type="Number" name="GSTIN" ></td>
+	</tr>
+	<tr>
+	<td style="height:25px;"><font color="#004d00"><b>Invoice Number </b></font></td>
+	<td><b>: </b><input type="text" name="firstname" ></td>
+	</tr>
+	<tr>
+	<td style="height:25px;"><font color="#004d00"><b>Invoice Date </b></font></td>
+	<td><b>:</b> <input type="date" name="firstname" ></td>
+	</tr>
+	</table>
+	
+	
+	</td>
+	</tr>
+	</table>
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td width="100%">
+	<table cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	<td style="border-top:1px solid; border-right:1px solid; height:20px; text-align:center;" width="3%"><font color="#004d00">No</font></td>
+	<td width="30%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:25px;"><font color="#004d00">Products</font></td>
+	
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:25px;"><font color="#004d00">Quantity</font></td>
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:25px;"><font color="#004d00">RATE</font></td>
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:25px;"><font color="#004d00">TOTAL</font> </td>
+	
+	</tr>
+	</table>
+	</td>
+	</tr>
+	
+	<tr>
+	<td width="100%">
+	<table cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	<td style="border-top:1px solid; border-right:1px solid; height:30px; text-align:center;" width="3%">
+	<input list="NO" name="NO" style="width:30px;text-align:center;" >
+	
+	</td>
+	<td width="30%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="Products" name="Products" style="width:300px;text-align:center;";  >
+	
+	</td>
+	
+	</td>
+	<form name="calculator">
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="Quantity" name="Quantity" style="width:100px;text-align:center;" >
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="RATE" name="RATE" style="width:100px;text-align:center;" >
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	<input list="TOTAL1" name="TOTAL1"  style="width:100px;text-align:center;" onclick="javascript:multiply();"></td>
+	</form>
+	</td>
+    </tr>
+	</table>
+	</td>
+	</tr>
+ 
+ 
+ <tr>
+	<td width="100%">
+	<table cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	<td style="border-top:1px solid; border-right:1px solid; height:30px; text-align:center;" width="3%">
+	<input list="NO" name="NO" style="width:30px;text-align:center;" >
+	
+	</td>
+	<td width="30%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="Products" name="Products" style="width:300px;text-align:center;";  >
+	</td>
+	
+	<form name="calculator01">
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="Quantity" name="Quantity" style="width:100px;text-align:center;" >
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="RATE" name="RATE" style="width:100px;text-align:center;" >
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	<input list="TOTAL2" name="TOTAL2"  style="width:100px;text-align:center;" onclick="javascript:multiply01();"></td>
+	</form>
+	</td>
+    </tr>
+	</table>
+	</td>
+	</tr>
+ 
+ 
+ <tr>
+	<td width="100%">
+	<table cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	<td style="border-top:1px solid; border-right:1px solid; height:30px; text-align:center;" width="3%">
+	<input list="NO" name="NO" style="width:30px;text-align:center;" >
+	
+	</td>
+	<td width="30%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="Products" name="Products" style="width:300px;text-align:center;";  >
+	
+	</td>
+	
+	<form name="calculator02">
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="Quantity" name="Quantity" style="width:100px;text-align:center;" >
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="RATE" name="RATE" style="width:100px;text-align:center;" >
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	<input list="TOTAL3" name="TOTAL3"  style="width:100px;text-align:center;" onclick="javascript:multiply02();"></td>
+	</form>
+	</td>
+    </tr>
+	</table>
+	</td>
+	</tr>
+ 
+
+ <tr>
+	<td width="100%">
+	<table cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	<td style="border-top:1px solid; border-right:1px solid; height:30px; text-align:center;" width="3%">
+	<input list="NO" name="NO" style="width:30px;text-align:center;" >
+	
+	</td>
+	<td width="30%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="Products" name="Products" style="width:300px;text-align:center;";  >
+	</td>
+	
+	<form name="calculator03">
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="Quantity" name="Quantity" style="width:100px;text-align:center;" >
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="RATE" name="RATE" style="width:100px;text-align:center;" >
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	<input list="TOTAL4" name="TOTAL4"  style="width:100px;text-align:center;" onclick="javascript:multiply03();"></td>
+	</form>
+	</td>
+    </tr>
+	</table>
+	</td>
+	</tr>
+ 
+ 
+ 
+ <tr>
+	<td width="100%">
+	<table cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	<td style="border-top:1px solid; border-right:1px solid; height:30px; text-align:center;" width="3%">
+	<input list="NO" name="NO" style="width:30px;text-align:center;" >
+	
+	</td>
+	<td width="30%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="Products" name="Products" style="width:300px;text-align:center;";  >
+	</td>
+	
+	<form name="calculator04">
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="Quantity" name="Quantity" style="width:100px;text-align:center;" >
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="RATE" name="RATE" style="width:100px;text-align:center;" >
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	<input list="TOTAL5" name="TOTAL5"  style="width:100px;text-align:center;" onclick="javascript:multiply04();"></td>
+	</form>
+	</td>
+    </tr>
+	</table>
+	</td>
+	</tr>
+
+<tr>
+	<td width="100%">
+	<table cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	<td style="border-top:1px solid; border-right:1px solid; height:30px; text-align:center;" width="3%">
+	<input list="NO" name="NO" style="width:30px;text-align:center;" >
+	
+	</td>
+	<td width="30%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="Products" name="Products" style="width:300px;text-align:center;";  >
+	</td>
+	
+	<form name="calculator08">
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="Quantity" name="Quantity" style="width:100px;text-align:center;" >
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<input list="RATE" name="RATE" style="width:100px;text-align:center;" >
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	<input list="TOTAL9" name="TOTAL9"  style="width:100px;text-align:center;" onclick="javascript:multiply08();"></td>
+	</form>
+	</td>
+    </tr>
+	</table>
+	</td>
+	</tr>
+ 
+
+ 
+ <tr>
+	<td width="100%">
+	<table cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	<td style="border-top:1px solid; border-right:0px solid; height:30px; text-align:center;" width="3%">
+	
+	
+	</td>
+	<td width="30%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	
+	</td>
+	<form name="calculator16">
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	
+	
+	</td>
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<font color="#004d00">TOTAL</font>
+	
+	</td>
+	
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	<input list="TOTAL00" name="TOTAL00"  style="width:100px;text-align:center;" onclick="javascript:multiply16();"></td>
+	</form>
+	</td>
+    </tr>
+	</table>
+	</td>
+	</tr>
+ 
+ 
+ <tr>
+	<td width="100%">
+	<table cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	
+	<form name="calculator17">
+	<td width="53%" style="border-top:0px solid; border-right:0px solid; text-align:center; height:30px;">
+	
+	
+	</td>
+	<td width="10%" style="border-top:0px solid; border-right:1px solid; text-align:center; height:30px;">
+	<font color="#004d00">SGST 9%</font>
+	
+	</td>
+	
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	<input list="TOTAL00" name="TOTAL00"  style="width:100px;text-align:center;" onclick="javascript:multiply17();"></td>
+	</form>
+	</td>
+    </tr>
+	</table>
+	</td>
+	</tr>
+ 
+ <tr>
+	<td width="100%">
+	<table cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	
+	<form name="calculator18">
+	<td width="53%" style="border-top:0px solid; border-right:0px solid; text-align:center; height:30px;">
+	
+	
+	</td>
+	<td width="10%" style="border-top:0px solid; border-right:1px solid; text-align:center; height:30px;">
+	<font color="#004d00">CGST 9%</font>
+	
+	</td>
+	
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	<input list="TOTAL00" name="TOTAL00"  style="width:100px;text-align:center;" onclick="javascript:multiply18();"></td>
+	</form>
+	</td>
+    </tr>
+	</table>
+	</td>
+	</tr>
+ 
+ <tr>
+	<td width="100%">
+	<table cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	
+	
+	<td width="53%" style="border-top:0px solid; border-right:0px solid; text-align:center; height:30px;">
+	
+	
+	</td>
+	<td width="10%" style="border-top:0px solid; border-right:1px solid; text-align:center; height:30px;">
+	<font color="#004d00">IGST 18%</font>
+	
+	</td>
+	
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	------</td>
+	</form>
+	</td>
+    </tr>
+	</table>
+	</td>
+	</tr>
+ <tr>
+	<td width="100%">
+	<table cellspacing="0" cellpadding="0" width="100%">
+	<tr>
+	
+	<form name="calculator20">
+	<td width="53%" style="border-top:1px solid; border-right:0px solid; height:30px;">
+	<font color="#004d00"> <b>TOTAL IN WORDS : <input list="t" name="t"  style="width:550px;" onclick="word.innerHTML=convertNumberToWords(this.value)" id="word"/></b>
+	</font>
+	
+	</td>
+	</form>
+	<form name="calculator19">
+	<td width="10%" style="border-top:1px solid; border-right:1px solid; text-align:center; height:30px;">
+	<font color="#004d00"><b>GRAND TOTAL</b></font>
+	
+	</td>
+	
+	<td width="10%" style="border-top:1px solid; border-right:0px solid; text-align:center; height:30px;">
+	<input list="TOTAL00" name="TOTAL00"  style="width:100px;text-align:center;" onclick="javascript:multiply19();"></td>
+	</form>
+	</td>
+    </tr>
+	</table>
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td width="100%">
+	<table width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+	<td width="50%" style="border-top:1px solid; height:100px; border-right:1px solid; padding-left:0px;" valign="top">
+	
+	<!-- Invoice Details -->
+    <table>
+	<tr>
+	<td style="height:25px;"><font color="#004d00"><b>TERMS/CONDITION </b></font></td>
+	
+	<tr>
+	<td>1) Once sold product will not be accepted back</td>
+
+	</tr>
+	<tr>
+	<td style="height:25px;">2) Our responsibility ceases the moment goods leave our Premises </td>
+
+	</tr>
+	
+	</table>
+	</td>
+	<td width="25%" style="border-top:1px solid; height:100px; border-right:1px solid; padding-left:10px;" valign="top">
+	
+	</td>
+	<td width="25%" style="border-top:1px solid; height:100px; border-right:0px solid; padding-left:10px;text-align:center;" valign="top">
+	<table>
+	<tr>
+	<td style="height:25px;width:250px;text-align:center;"><font color="#004d00"> Almari couture</font> </td>
+	
+	<tr>
+	<td> </td>
+	<tr>
+	<td style="height:25px;"> </td>
+  
+	</tr>
+	<tr>
+	<td style="height:25px;"> </td>
+  
+	</tr>
+	<tr>
+	<td style="height:25px;text-align:center;"> </td>
+  
+	</tr>
+	<tr>
+	<td style="height:25px;text-align:center;"> </td>
+  
+	</tr>
+	<tr>
+	<td style="height:25px;text-align:center;"><font color="#004d00"> <b>AUTHORISED SIGNATORY</b> </font></td>
+  
+	</tr>
+
+	</tr>
+	
+	</tr>
+	
+	</table>
+	 </tr>
+	</td>
+	
+	
+				      
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+				    <tr>
+	      
+			        
+<button id="printPageButton" style="font-size:24px;" onClick="window.print();"><b>Print</b><i class="fa fa-print"></i></button>
+	
+    </tr>
+ </table>	
+	</div>
+ </body>
+ </html>
+ <div class="main"></div>
+    <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+    <h3>ALMARI<span>COUTURE</span></h3>
+
+    <p class="footer-links">
+    <a href="#">Home</a>
+  ·
+    <a href="#">Blog</a>
+  ·
+    <a href="#">About</a>
+  ·
+    <a href="#">Contact</a>
+    </p>
+
+    <p class="footer-company-name">ALMARI COUTURE &copy; 2019</p>
+    </div>
+
+    <div class="footer-center">
+
+    <div>
+    <i class="fa fa-map-marker"></i>
+    <p><span>HO Address D/107, river heights society,  Adajan</span> Surat, Gujarat</p>
+    </div>
+
+    <div>
+    <i class="fa fa-phone"></i>
+    <p>+91 9841500320</p>
+    </div>
+
+    <div>
+    <i class="fa fa-envelope"></i>
+    <p><a href="">almaricouture2010@gmail.com</a></p>
+    </div>
+
+    </div>
+
+    <div class="footer-right">
+
+    <div class="footer-icons">
+
+
+    <a href=""><img src="whatsapp.png" width="40" height="40"></a>
+    &nbsp
+    &nbsp
+    <a href=""><img src="instagram.png" width="40" height="40"></a>
+    &nbsp
+    &nbsp
+    <a href=""><img src="facebook.png" width="40" height="40"></a>
+   
+   
+    </div>
+
+    </div>
+
+    </footer>
+</body>
+</html>
